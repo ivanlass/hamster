@@ -45,7 +45,7 @@ export default () => {
         subheading={<Subheading>STEPS</Subheading>}
         heading={
           <>
-            Easy to <HighlightedText>Get Started.</HighlightedText>
+            Fremgangsmåte:
           </>
         }
         textOnLeft={false}
@@ -83,7 +83,7 @@ export default () => {
         subheading={<Subheading>Testimonials</Subheading>}
         heading={
           <>
-            Our Clients <HighlightedText>Love Us.</HighlightedText>
+            Hva sier en norsk pornostjerne om <HighlightedText>online dating?</HighlightedText>
           </>
         }
         testimonials={[
@@ -91,21 +91,11 @@ export default () => {
             stars: 5,
             profileImageSrc:
               "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
-            heading: "Amazing User Experience",
+            heading: "",
             quote:
-              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+              "Jeg har egentlig ikke tid til å møte menn i barer, og jeg vil ikke blande meg med noen fra jobben. Derfor prøvde jeg nettdating. Jeg fant mange partnere på dette nettstedet, for normal- og for fetisjsex, det er noe for alle! ",
             customerName: "Charlotte Hale",
-            customerTitle: "Director, Delos Inc."
-          },
-          {
-            stars: 5,
-            profileImageSrc:
-              "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
-            heading: "Love the Developer Experience and Design Principles !",
-            quote:
-              "Sinor Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            customerName: "Adam Cuppy",
-            customerTitle: "Founder, EventsNYC"
+            customerTitle: ""
           }
         ]}
       />
@@ -113,24 +103,19 @@ export default () => {
         subheading={<Subheading>FAQS</Subheading>}
         heading={
           <>
-            You have <HighlightedText>Questions ?</HighlightedText>
+            Har du <HighlightedText>spørsmål?</HighlightedText>
           </>
         }
         faqs={[
           {
-            question: "Are all the templates easily customizable ?",
+            question: "Chatter jeg med en eller så mange medlemmer som mulig?",
             answer:
-              "Yes, they all are. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              "Det er opp til deg, men tenk på det på denne måten: du er her fordi du vil knulle, sannsynligvis noen sexy (eller ikke, vi dømmer ikke). Sjansene for å knulle øker når du snakker med flere medlemmer!"
           },
           {
-            question: "How long do you usually support an standalone template for ?",
+            question: "Er det falske profiler?",
             answer:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-          },
-          {
-            question: "What kind of payment methods do you accept ?",
-            answer:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              "Et par falske profiler er uunngåelig, men vi prøver å holde det til et minimum. Nettstedet vårt har utmerkede registreringsfiltre, og vi oppgraderer dem kontinuerlig."
           }
         ]}
       />

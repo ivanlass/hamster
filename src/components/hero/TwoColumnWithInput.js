@@ -53,11 +53,10 @@ export default ({ roundedHeaderButton }) => {
         <TwoColumn>
           <LeftColumn>
             <Heading>
-              Beautiful React Templates <span tw="text-primary-500">for you.</span>
+              Fremmede elsker ikke. <span tw="text-primary-500">De knuller.</span>
             </Heading>
             <Paragraph>
-              Our templates are easy to setup, understand and customize. Fully modular components with a variety of
-              pages and components.
+              Du kom ikke hit for å finne kvinnen i ditt liv. Det er bedre å finne en kvinne som bare vil knulle her og nå.
             </Paragraph>
           </LeftColumn>
           <RightColumn>

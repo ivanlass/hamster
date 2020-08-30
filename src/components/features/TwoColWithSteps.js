@@ -60,11 +60,11 @@ export default ({
   const defaultSteps = [
     {
       heading: "Register",
-      description: "Create an account with us using Google or Facebook."
+      description: "Registrer deg gratis og lag en profil"
     },
     {
-      heading: "Download",
-      description: "Browse and Download the template that you like from the marketplace."
+      heading: "Chat",
+      description: "Se gjennom andre profiler, start en prat, sett en dato!"
     }
   ];
 

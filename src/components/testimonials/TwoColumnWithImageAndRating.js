@@ -74,8 +74,8 @@ export default ({
   imageBorder = false,
   imageShadow = false,
   subheading = "Testimonials",
-  heading = "Our Clients Love Us.",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.",
+  heading = "Hva sier en norsk pornostjerne om online dating?",
+  description = "",
   textOnLeft = false,
   testimonials = [
     {
@@ -117,7 +117,7 @@ export default ({
               {testimonials.map((testimonial, index) => (
                 <Testimonial key={index}>
                   <StarsContainer>
-                    {Array.from({ length: testimonial.stars }).map((_,indexIcon) => (
+                    {Array.from({ length: testimonial.stars }).map((_, indexIcon) => (
                       <StarIcon key={indexIcon} />
                     ))}
                   </StarsContainer>

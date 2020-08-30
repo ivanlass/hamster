@@ -40,23 +40,18 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 
 export default ({
   subheading = "FAQS",
-  heading = "You have Questions ?",
-  description = "And we have got answers to all of them. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  heading = "Har du spørsmål?",
+  description = "Vi har svar. Dette er sannsynligvis ikke første gang du søker etter sex på nettet, men vi er her for deg!",
   faqs = [
     {
-      question: "Is lunch provided free of cost ?",
+      question: "Chatter jeg med en eller så mange medlemmer som mulig?",
       answer:
-        "Yes, it is, if you have a membership with us. Otherwise it is charged as per the menu. Some limits do apply as to how much items can be included in your lunch. This limit is enough for any one person and merely exists to discourage abusal of the system."
+        "Det er opp til deg, men tenk på det på denne måten: du er her fordi du vil knulle, sannsynligvis noen sexy (eller ikke, vi dømmer ikke). Sjansene for å knulle øker når du snakker med flere medlemmer!"
     },
     {
-      question: "Do you have 2 Bedroom suites ?",
+      question: "Er det falske profiler?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    },
-    {
-      question: "Are Wi-Fi costs included in the price ?",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "Et par falske profiler er uunngåelig, men vi prøver å holde det til et minimum. Nettstedet vårt har utmerkede registreringsfiltre, og vi oppgraderer dem kontinuerlig"
     }
   ]
 }) => {
