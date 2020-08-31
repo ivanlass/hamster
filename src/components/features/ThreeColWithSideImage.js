@@ -68,16 +68,10 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
    */
 
   const defaultCards = [
-    {
-      imageSrc: ShieldIconImage,
-      title: "Secure",
-      description: "We strictly only deal with vendors that provide top notch security."
-    },
-    { imageSrc: SupportIconImage, title: "24/7 Support" },
-    { imageSrc: CustomizeIconImage, title: "Customizable" },
-    { imageSrc: ReliableIconImage, title: "Reliable" },
-    { imageSrc: FastIconImage, title: "Fast" },
-    { imageSrc: SimpleIconImage, title: "Easy" }
+    {  title: "Milf", description:"Milfs vet hva de gjør, ikke noe tull, rett på sak." },
+    { title: "18+", description:"Hvem liker ikke en jente som vil prøve alt nytt, kanskje en fetisj." },
+    {  title: "Forhold", description: "Ulykkelig ekteskap eller forhold? Det er privat, finn det som tilfredsstiller deg." },
+
   ];
 
   if (!cards) cards = defaultCards;

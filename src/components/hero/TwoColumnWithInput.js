@@ -45,10 +45,11 @@ const CustomersLogoStrip = styled.div`
   }
 `;
 
-export default ({ roundedHeaderButton }) => {
+export default ({ roundedHeaderButton, linkToPage}) => {
+  
   return (
     <>
-      <Header roundedHeaderButton={roundedHeaderButton} />
+      <Header roundedHeaderButton={roundedHeaderButton} linkToPage={linkToPage}/>
       <Container>
         <TwoColumn>
           <LeftColumn>

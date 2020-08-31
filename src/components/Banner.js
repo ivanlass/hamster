@@ -1,10 +1,12 @@
 import React from 'react'
 import banner from '../images/banner.png'
 
-const Banner = () => {
+const Banner = (props) => {
     return (
-        <div style={{ backgroundImage: `url(${banner})`, backgroundRepeat: "no-repeat", width: "783px", height: "200px", margin: 'auto' }}>
+        <a href={props.linkToPage} target="_blank">
+        <div style={{ backgroundImage: `url(${banner})`, backgroundRepeat: "no-repeat", width: "763px", height: "334px", margin: 'auto' }}>
         </div>
+        </a>
     )
 }
 

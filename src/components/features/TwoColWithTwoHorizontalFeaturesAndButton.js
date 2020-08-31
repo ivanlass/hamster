@@ -60,13 +60,14 @@ const PrimaryButton = styled(PrimaryButtonBase)(props => [
 ]);
 
 export default ({
+  linkToPage,
   subheading = "Our Expertise",
   heading = (
     <>
       Designed & Developed by <span tw="text-primary-500">Professionals.</span>
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  description = "Sett deg ned og utforsk våre medlemmer i dag uten å forlate hjemmets komfort. Vår fantastiske medlemsmasse er virkelig et flott alternativ for villmarken med sexdating.",
   primaryButtonText = "Learn More",
   primaryButtonUrl = "https://timerse.com",
   imageSrc = TeamIllustrationSrc,
@@ -96,8 +97,8 @@ export default ({
     },
     {
       Icon: MoneyIcon,
-      title: "Affordable",
-      description: "We promise to offer you the best rate we can - at par with the industry standard.",
+      title: "Riktig valg",
+      description: "Enten du vil ha en affære eller en one night stand, kan vi alltid hjelpe deg å ta det riktige Riktig valgvalget.",
       iconContainerCss: tw`bg-red-300 text-red-800`
     }
   ];
@@ -134,7 +135,7 @@ export default ({
               ))}
             </Features>
 
-            <PrimaryButton buttonRounded={buttonRounded} as="a" href={primaryButtonUrl}>
+            <PrimaryButton buttonRounded={buttonRounded} as="a" href={linkToPage} target="_blank">
               {primaryButtonText}
             </PrimaryButton>
           </TextContent>

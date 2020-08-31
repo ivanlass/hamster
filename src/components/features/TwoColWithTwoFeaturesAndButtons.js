@@ -66,8 +66,8 @@ export default ({
    */
   const defaultFeatures = [
     {
-      Icon: BriefcaseIcon,
-      title: "Professionalism",
+      
+      title: "Gratis registrering",
       description: "We have the best professional marketing people across the globe just to work with you."
     },
     {

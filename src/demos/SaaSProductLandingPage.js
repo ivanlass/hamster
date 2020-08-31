@@ -23,26 +23,22 @@ export default () => {
   const Subheading = tw.span`uppercase tracking-widest font-bold text-primary-500`;
   const HighlightedText = tw.span`text-primary-500`;
 
+  const linkToPage = "http://www.facebook.com"
+
   return (
     <AnimationRevealPage>
-      <Hero roundedHeaderButton={true} />
-      <Features
-        subheading={<Subheading>Features</Subheading>}
-        heading={
-          <>
-            We have Amazing <HighlightedText>Service.</HighlightedText>
-          </>
-        }
-      />
-      <Banner />
+      <Hero roundedHeaderButton={true} linkToPage={linkToPage}/>
+     
+      <Banner linkToPage={linkToPage}/>
       <MainFeature
-        subheading={<Subheading>Quality Work</Subheading>}
+        subheading={<Subheading>Bare sex, sex, sex</Subheading>}
         imageSrc={heroScreenshotImageSrc}
         imageBorder={true}
         imageDecoratorBlob={true}
+        linkToPage={linkToPage}
       />
       <FeatureWithSteps
-        subheading={<Subheading>STEPS</Subheading>}
+        subheading={<Subheading></Subheading>}
         heading={
           <>
             Fremgangsmåte:
@@ -53,12 +49,13 @@ export default () => {
         imageDecoratorBlob={true}
         decoratorBlobCss={tw`xl:w-40 xl:h-40 opacity-15 -translate-x-1/2 left-1/2`}
       />
-      <Banner />
+      <Banner linkToPage={linkToPage}/>
       <MainFeature2
-        subheading={<Subheading>VALUES</Subheading>}
+      linkToPage={linkToPage}
+        subheading={<Subheading>En villmark av sex</Subheading>}
         heading={
           <>
-            We Always Abide by Our <HighlightedText>Principles.</HighlightedText>
+            Hva venter du på? 
           </>
         }
         imageSrc={prototypeIllustrationImageSrc}
@@ -66,14 +63,14 @@ export default () => {
         features={[
           {
             Icon: MoneyIcon,
-            title: "Affordable",
-            description: "We promise to offer you the best rate we can - at par with the industry standard.",
+            title: "Gratis registrering",
+            description: "Enten du vil ha en affære eller en one night stand, kan vi alltid hjelpe deg å ta det riktige valget.",
             iconContainerCss: tw`bg-green-300 text-green-800`
           },
           {
             Icon: BriefcaseIcon,
-            title: "Professionalism",
-            description: "We assure you that our templates are designed and created by professional designers.",
+            title: "Perfekt partner",
+            description: "Hva venter du på? La oss ta kontakt for å finne den perfekte partneren for deg nå!",
             iconContainerCss: tw`bg-red-300 text-red-800`
           }
         ]}
@@ -94,10 +91,18 @@ export default () => {
             heading: "",
             quote:
               "Jeg har egentlig ikke tid til å møte menn i barer, og jeg vil ikke blande meg med noen fra jobben. Derfor prøvde jeg nettdating. Jeg fant mange partnere på dette nettstedet, for normal- og for fetisjsex, det er noe for alle! ",
-            customerName: "Charlotte Hale",
+            customerName: "",
             customerTitle: ""
           }
         ]}
+      />
+       <Features
+        subheading={<Subheading>Er du…</Subheading>}
+        heading={
+          <>
+            Den typen som ikke er fornøyd med å kun se på <HighlightedText>porno?</HighlightedText>
+          </>
+        }
       />
       <FAQ
         subheading={<Subheading>FAQS</Subheading>}
@@ -119,7 +124,7 @@ export default () => {
           }
         ]}
       />
-      <GetStarted />
+      <GetStarted linkToPage={linkToPage}/>
       <Footer />
     </AnimationRevealPage>
   );

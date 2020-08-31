@@ -41,15 +41,16 @@ const PrimaryButton = styled(PrimaryButtonBase)(props => [
 
 
 export default ({
+  linkToPage,
   subheading = "Our Expertise",
   heading = (
     <>
-      Er du… <span tw="text-primary-500">Den typen som ikke er fornøyd med å kun se på porno?</span>
+      I dag ser du porno på <span tw="text-primary-500">video...</span>
     </>
   ),
-  description = "Å finne en mann eller kvinne har blitt praktisk for alle. Vi streber etter å finne det du lengter etter. Å starte samtaler med en sexy partner er ikke lengre en komplisert oppgave, siden vår tar deg hvor enn du ønsker deg.",
-  primaryButtonText = "Kom i gang nå!",
-  primaryButtonUrl = "https://timerse.com",
+  description = "... i morgen live porno - med deg som hovedskuespiller. Dette nettstedet handler om møte for uformell sex. Dette er hvor kåte damer, gifte kvinner, milfs, nymfomane og sugarbabies drar for å finne partnere for å ha sex!",
+  primaryButtonText = "BLI MED NÅ!",
+  primaryButtonUrl = {linkToPage},
   imageSrc = TeamIllustrationSrc,
   buttonRounded = true,
   imageRounded = true,
@@ -74,7 +75,7 @@ export default ({
             <Subheading>{subheading}</Subheading>
             <Heading>{heading}</Heading>
             <Description>{description}</Description>
-            <PrimaryButton buttonRounded={buttonRounded} as="a" href={primaryButtonUrl}>
+            <PrimaryButton buttonRounded={buttonRounded} as="a" href={linkToPage} target="_blank">
               {primaryButtonText}
             </PrimaryButton>
           </TextContent>

@@ -60,27 +60,27 @@ export default ({ cards = null, heading = "Our Offices", subheading = "Locations
   const defaultCards = [
     {
       title: "Secure",
-      description: "We strictly only deal with vendors that provide top notch security."
+      description: ""
     },
     { 
       title: "24/7 Support",
-      description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."
+      description: ""
     },
     { 
       title: "Reliable",
-      description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."
+      description: ""
     },
     { 
       title: "Easy",
-      description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."
+      description: ""
     },
     { 
       title: "Customizable",
-      description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."
+      description: ""
     },
     { 
       title: "Fast",
-      description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."
+      description: ""
     },
   ];
 
@@ -99,7 +99,7 @@ export default ({ cards = null, heading = "Our Offices", subheading = "Locations
               <span className="textContainer">
                 <span className="title">{card.title || "Fully Secure"}</span>
                 <p className="description">
-                  {card.description || "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."}
+                  {card.description || ""}
                 </p>
               </span>
             </Card>
